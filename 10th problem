@@ -1,6 +1,6 @@
 def addfrequencytocharacter(s):
     frequency=[0]*26
-    n=lens(s)
+    n=len(s)
     for i in range(n):
         frequency[ord(s[i])-ord('a')]+=1
     for i in range(n):
